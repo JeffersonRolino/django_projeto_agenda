@@ -16,7 +16,7 @@
             "source.organizeImports": true
         }
     },
-    "python.languageServer": "Pylance",
+    "python.languageServer": "Jedi",
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.defaultInterpreterPath": "./venv/bin/python"
