@@ -57,6 +57,7 @@ cover/
 
 # Django stuff:
 static_files/
+media/
 *.pot
 *.pyc
 *.log
