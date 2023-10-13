@@ -5,6 +5,13 @@ from django.http import Http404
 from django.core.paginator import Paginator
 
 def create(request):
+    if request.method == 'POST':
+        print("-"*20)
+        print(request.method)
+        print(request.POST.get('first_name'))
+        print("-"*20)
+    
+    
     context = {
 
     }
